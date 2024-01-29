@@ -11,7 +11,7 @@
 
 ## Idee de izolare a proceselor
 
-*Izolarea proceselor* este o posibilitate de a porni mai multe procese în cadrul unui singur sistem de operare, dar cu resurse izolate. Aceste procese nu pot influența unul pe altul, iar funcționarea lor nu depinde unul de altul. Izolarea proceselor permite rularea mai multor aplicații pe un singur host, fără a vă face griji că o aplicație poate afecta funcționarea alteia. Izolarea proceselor permite rularea mai multor aplicații pe un singur host, fără a vă face griji că o aplicație poate afecta funcționarea alteia. Izolarea proceselor permite rularea mai multor aplicații pe un singur host, fără a vă face griji că o aplicație poate afecta funcționarea alteia.
+*Izolarea proceselor* este o posibilitate de a porni mai multe procese în cadrul unui singur sistem de operare, dar cu resurse izolate. Aceste procese nu pot influența unul pe altul, iar funcționarea lor nu depinde unul de altul. Izolarea proceselor permite rularea mai multor aplicații pe un singur host, fără a vă face griji că o aplicație poate afecta funcționarea alteia.
 
 Scopul izolării proceselor este securitatea și fiabilitatea aplicațiilor. Dacă o aplicație se încheie cu o eroare, aceasta nu afectează funcționarea altor aplicații. Dacă o aplicație este supusă unui atac, aceasta nu afectează funcționarea altor aplicații.
 
@@ -19,7 +19,7 @@ Scopul izolării proceselor este securitatea și fiabilitatea aplicațiilor. Dac
 
 Sub *virtualizarea* se înțelege tehnologia care permite rularea unei instanțe a unui sistem de operare în cadrul altui sistem de operare (numit gazda / *host*). Pentru virtualizare, hipervizorul (software-ul de virtualizare) implementează emularea hardware-ului (procesor, memorie, spațiu de stocare, interfețe de rețea etc.), adică creează o mașină virtuală pe care se instalează sistemul de operare. Virtualizarea permite rularea mai multor instanțe ale aceluiași sistem de operare pe un singur gazdă. Fiecare instanță are propriile sale procese, sistem de fișiere, interfețe de rețea și utilizatori.
 
-*Containerizarea* este o metodă de virtualizare care utilizează resursele nucleului sistemului de operare. Aceasta este o diferență față de virtualizarea obișnuită, în care are loc emularea hardware-ului. Containerizarea este adesea utilizată pentru a crea instanțe izolate ale aplicațiilor specifice, nu a întregului sistem de operare. Aceste instanțe izolate ale aplicațiilor se numesc containere.
+*Containerizarea* este o metodă de virtualizare care utilizează resursele nucleului sistemului de operare. Aceasta este o diferență față de virtualizarea obișnuită, în care are loc emularea hardware-ului. Containerizarea este adesea utilizată pentru a crea instanțe izolate ale aplicațiilor specifice, nu a întregului sistem de operare. Aceste instanțe izolate ale aplicațiilor se numesc **containere**.
 
 ![Virtualizare versus Containerizare](images/01001_virtual_ws_container.png)
 
